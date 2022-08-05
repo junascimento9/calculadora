@@ -1,0 +1,101 @@
+body {
+  background-color: #c99ed1;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.637) 0.1em 0.1em 0.2em
+}
+table{
+  margin: auto;
+  background-color: #790923;
+  width: 295px;
+  max-width: 295px;
+  height: 325px;
+  border-radius: 10px;
+  padding-right: 10px;
+  border-color: #790923;
+}
+input{
+  outline: 0;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  border: 0;
+  background-color: aliceblue;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 22px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+input:hover{
+  border: 0 solid#000;
+  color: #495069;
+  background-color: aliceblue;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+}
+input:active{
+  top: 4px;
+  border: 0 solid #000;
+  color: #000000;
+  background-color: aliceblue;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: none;
+}
+.rodape{
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 99%;
+  height: 100px;    
+  text-align: center;
+  line-height: 100px;
+}
+.operador{
+  background-color: #b6abf5;
+  position: relative;
+}
+#expositor{
+  width: 280px;
+  background-color: 85c1e9;
+} 
+#expositor:hover{
+  float: left;
+  display: block;
+  margin-bottom: 15px;
+}
+#limpa{
+  float: left;
+  position: relative;
+  display: block;
+  background-color: #f77e8a;
+}
+#limpa:hover{
+  float: left;
+  display: block;
+  background-color: f77e8a;
+  margin-bottom: 15px;
+  box-shadow: 0 4px rgba(204, 127, 134, 0.87);
+}
+#limpa:active{
+  float: left;
+  top: 4px;
+  display: block;
+  background-color: #f297a0;
+  margin-bottom: 15px;
+  box-shadow: none;
+}

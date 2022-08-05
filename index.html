@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <link rel="icon" type="imagem/svg" href="calc.svg" />
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <h3>CALCULADORA SIMPLES</h3>
+  <form name="calc">
+    <table border="10">
+      <tr>
+        <td colspan="40">
+          <input type="text" id="expositor" name="expositor" value="" readonly>
+        </td>
+      </tr>
+      <td> <input type="button" value="1" onclick="calc.expositor.value+='1'">
+      </td>
+      <td> <input type="button" value="2" onclick="calc.expositor.value+='2'">
+      </td>
+      <td> <input type="button" value="3" onclick="calc.expositor.value+='3'">
+      </td>
+      <td> <input type="button" class="operador" name="plus" value="+" onclick="calc.expositor.value+='+'"></td>
+      <tr>
+        <td> <input type="button" value="4" onclick="calc.expositor.value+='4'">
+        </td>
+        <td> <input type="button" value="5" onclick="calc.expositor.value+='5'">
+        </td>
+        <td> <input type="button" value="6" onclick="calc.expositor.value+='6'">
+        </td>
+        <td> <input type="button" class="operador" name="minus" value="-" onclick="calc.expositor.value+='-'"></td>
+      </tr>
+      <tr>
+        <td> <input type="button" value="7" onclick="calc.expositor.value+='7'">
+        </td>
+        <td> <input type="button" value="8" onclick="calc.expositor.value+='8'">
+        </td>
+        <td> <input type="button" value="9" onclick="calc.expositor.value+='9'">
+        </td>
+        <td> <input type="button" class="operador" name="times" value="x" onclick="calc.expositor.value+='*'"></td>
+      </tr>
+      <tr>
+        <td> <input type="button" value="0" onclick="calc.expositor.value+='0'">
+        </td>
+        <td> <input type="reset" id="limpa" name="limpa" value="c" onclick="calc.expositor.value+=''"></td>
+        <td> <input type="button" class="operador" name="equal" value="=" onclick="calc.expositor.value =eval(calc.expositor.value)"></td>
+        <td> <input type="button" class="operador" name="div" value="/" onclick="calc.expositor.value+='/'""></td>
+      </tr> </table>
+  </form>
+    <footer class=" rodape">© 2022 JULIANA NASCIMENTO</footer>
+</body>
+
+</html>
